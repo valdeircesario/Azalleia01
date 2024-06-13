@@ -7,11 +7,6 @@
     min-height: 50%;
 }
 
-.nav-products a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #000;
-}
 
 .product-grid {
     display: flex;

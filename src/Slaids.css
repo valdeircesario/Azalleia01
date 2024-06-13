@@ -117,7 +117,7 @@
     margin-top: 5px; 
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .icon-item {
         flex-direction: column;

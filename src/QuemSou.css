@@ -27,64 +27,67 @@
     font-size: 1em;
 }
 
-/* Responsividade */
+
 @media (max-width: 1200px) {
     .quemsou {
+        margin-top: 90px;
         padding: 15px;
         margin-left: 150px;
         margin-right: 150px;
     }
 
     .quemsou h1 {
-        font-size: 2.2em;
+        font-size: 2.9em;
     }
 
     .sou1 h6 {
-        font-size: 1.1em;
+        font-size: 1.9em;
     }
 
     .sou1 p {
-        font-size: 0.95em;
+        font-size: 1em;
     }
 }
 
 @media (max-width: 992px) {
     .quemsou {
+        margin-top: 90px;
         padding: 10px;
         margin-left: 100px;
         margin-right: 100px;
     }
 
     .quemsou h1 {
-        font-size: 2em;
+        font-size: 2.9em;
     }
 
     .sou1 h6 {
-        font-size: 1em;
+        font-size: 1.9em;
     }
 
     .sou1 p {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 }
 
 @media (max-width: 768px) {
     .quemsou {
+        margin-top: 90px;
         padding: 8px;
         margin-left: 50px;
         margin-right: 50px;
     }
 
     .quemsou h1 {
-        font-size: 1.8em;
+        font-size: 2.5em;
     }
 
     .sou1 h4 {
-        font-size: 1.2em;
+        font-size: 2em;
     }
 
     .sou1 h6 {
-        font-size: 1em;
+        font-size: 1.4em;
     }
 
     .sou1 p {
@@ -94,20 +97,21 @@
 
 @media (max-width: 576px) {
     .quemsou {
+        margin-top: 90px;
         padding: 5px;
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .quemsou h1 {
-        font-size: 1.6em;
+        font-size: 2em;
     }
 
     .sou1 h6 {
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
 
     .sou1 p {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 }

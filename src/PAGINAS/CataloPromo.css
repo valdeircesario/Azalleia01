@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 .containera {
     display: flex;
     flex-direction: column;
@@ -85,18 +85,13 @@
     opacity: 1;
 }
 
-
-
-
-
-
-
 .whatsapp-icon {
     width: 30px;
     height: 30px;
     cursor: pointer;
     transition: transform 0.3s ease;
     margin-top: 10px; 
+}
 
 .whatsapp-icon:hover {
     transform: scale(1.1);

@@ -79,25 +79,25 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: auto; /* Adjust height to auto for better visibility */
-        margin-top: 0; /* Reset margin */
-        margin-bottom: 0; /* Reset margin */
-        padding: 10px; /* Adjust padding for smaller screens */
+        height: auto; 
+        margin-top: 0; 
+        margin-bottom: 0; 
+        padding: 10px; 
     }
 
     .box {
         max-width: 90%;
-        height: auto; /* Adjust to auto height for smaller screens */
-        margin-bottom: 20px; /* Add margin for spacing */
+        height: auto; 
+        margin-bottom: 20px; 
     }
 
     .box.promo {
         order: -1;
-        margin-top: 50px; /* Ensure promo box is always in the middle */
+        margin-top: 50px;
     }
 
     .circle, .circle-middle {
-        display: none; /* Hide falling circles on smaller screens for better visibility */
+        display: none; 
     }
 }
 
@@ -108,6 +108,6 @@
 
     .box.promo {
         font-size: 20px;
-        margin-top: 80px; /* Adjust font size for smaller screens */
+        margin-top: 80px;
     }
 }
