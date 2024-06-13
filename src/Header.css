@@ -22,7 +22,7 @@
 
 .logo-link {
   
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none; 
     color: #865551;
 }
   
@@ -34,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px; /* Aumentado o padding lateral para 40px */
+  padding: 0 30px; 
   background-color:#FEE6E6;
   position: fixed;
   width: 100%;
@@ -42,7 +42,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 4px 6px #865551(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Garantir que o padding não cause overflow */
+  box-sizing: border-box; 
   border-bottom: 5px solid #865551;
 }
 .logo{
@@ -58,7 +58,7 @@
   display: flex;
   gap: 20px;
   margin-left: auto;
-   /* Empurrar a navegação para a direita */
+   
 }
 
 .Nav a {
@@ -68,13 +68,13 @@
   font-size: 22px;
 }
 
-/* Estilos para o menu hambúrguer */
+
 .hamburger {
   display: none;
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
-  margin-left: 20px; /* Ajuste de margem para o menu hambúrguer */
+  margin-left: 20px; 
 }
 
 .hamburger div {
@@ -90,7 +90,7 @@
     width: 100%;
     opacity: 0.5px;
     position: absolute;
-    top: 60px; /* Altura do header */
+    top: 60px; /
     left: 0;
     padding: 20px;
     box-shadow: 0 4px 6px #865551(127, 47, 47, 0.1);
@@ -105,7 +105,7 @@
   }
 }
 
-/* Ajuste para centralizar o conteúdo */
+
 .container {
-  padding: 10 30px; /* Aumenta o padding lateral para 40px */
+  padding: 10 30px; 
 }

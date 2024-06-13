@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import './Elements.css'; // Import the CSS file
+import './Elements.css'; 
 import { Link } from 'react-router-dom';
 
 function Elements() {

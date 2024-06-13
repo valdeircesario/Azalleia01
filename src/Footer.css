@@ -16,17 +16,17 @@
   width: 25%;
 }
 
-/* Media query for tablets */
+
 @media (max-width: 768px) {
   .footer-element {
-    width: 50%; /* Two elements per row */
+    width: 50%; 
   }
 }
 
-/* Media query for mobile devices */
+
 @media (max-width: 480px) {
   .footer-element {
-    width: 100%; /* One element per row */
+    width: 100%; 
   }
 }
 

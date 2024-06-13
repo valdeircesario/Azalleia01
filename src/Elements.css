@@ -77,21 +77,21 @@
 
 @media (max-width: 1200px) {
     .element {
-        flex: 1 1 calc(33.33% - 40px); /* Responsivo: ocupa 33.33% menos a margem */
-        max-width: calc(33.33% - 40px); /* Limite para três elementos por linha */
+        flex: 1 1 calc(33.33% - 40px); 
+        max-width: calc(33.33% - 40px); 
     }
 }
 
 @media (max-width: 900px) {
     .element {
-        flex: 1 1 calc(50% - 40px); /* Responsivo: ocupa 50% menos a margem */
-        max-width: calc(50% - 40px); /* Limite para dois elementos por linha */
+        flex: 1 1 calc(50% - 40px); 
+        max-width: calc(50% - 40px); 
     }
 }
 
 @media (max-width: 600px) {
     .element {
-        flex: 1 1 100%; /* Responsivo: ocupa 100% da largura */
-        max-width: 100%; /* Limite para um elemento por linha */
+        flex: 1 1 100%; 
+        max-width: 100%;
     }
 }

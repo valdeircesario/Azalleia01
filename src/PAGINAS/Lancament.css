@@ -5,14 +5,14 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    min-height: 100vh; /* Garantir que o contêiner ocupe pelo menos a altura total da viewport */
+    min-height: 100vh; 
 }
 
 .navprodutos {
     display: flex;
     align-items: flex-end;
     margin-top: 10px;
-    margin-bottom: 20px; /* Adicionar espaço abaixo do nav */
+    margin-bottom: 20px; 
     width: 100%;
     justify-content: space-around;
 }
@@ -31,7 +31,7 @@
 .product-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centralizar os itens da grade */
+    justify-content: center; 
     gap: 20px;
     width: 100%;
 }
@@ -41,14 +41,14 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
-    width: 90%; /* Ajustar a largura para responsividade */
-    max-width: 300px; /* Garantir que o cartão não fique muito largo */
+    width: 90%; 
+    max-width: 300px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px; /* Adicionar padding */
+    padding: 10px; 
 }
 
 .product-card:hover {
@@ -58,7 +58,7 @@
 .image-container {
     position: relative;
     width: 100%;
-    padding-top: 125%; /* Aspect ratio */
+    padding-top: 125%; 
     overflow: hidden;
     cursor: pointer;
 }
@@ -108,7 +108,7 @@
     height: 30px;
     cursor: pointer;
     transition: transform 0.3s ease;
-    margin-top: 10px; /* Adicionar margem para separar o ícone */
+    margin-top: 10px; 
 }
 
 .whatsapp-icon:hover {
@@ -151,7 +151,7 @@
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Estilos adicionais para centralizar título e parágrafo */
+
 .box {
     display: flex;
     flex-direction: column;

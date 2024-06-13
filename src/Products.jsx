@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import './Products.css';
-import { Link } from 'react-router-dom';
+
 import SearchProducts from './ProdutosEstoque';
 
 const ProductsData = [

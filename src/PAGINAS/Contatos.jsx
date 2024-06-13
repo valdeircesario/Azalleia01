@@ -8,7 +8,6 @@ import Header from '../Header';
 import ContactForm from '../Contatcform';
 import './Contatos.css'
 import Footer from '../Footer';
-import Products from '../Products';
 
 
 function Contatos() {

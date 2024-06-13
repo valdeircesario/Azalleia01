@@ -7,8 +7,8 @@ const items = [
     {
         id: 1,
         title: 'Conjuntos',
-        imgSrc: '/public/ImagensLinks/conjuntolinhao1copia.png', // Substitua pelo caminho da imagem
-        link: '/src/PAGINAS/Conjuntos.jsx', // Substitua pelo link de navegação
+        imgSrc: '/public/ImagensLinks/conjuntolinhao1copia.png', 
+        link: '/src/PAGINAS/Conjuntos.jsx', 
         description: 'Conjuntos'
     },
     {
