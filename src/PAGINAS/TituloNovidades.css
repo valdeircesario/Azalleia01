@@ -1,0 +1,33 @@
+
+
+
+.titulonov{
+    flex: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+}
+.titulonov1{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.titulonov1 h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 80px;
+    color:#865551;
+    align-items: center;
+    
+}
+.titulonov1 p{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: #865551;
+    margin-top: 0px;
+}

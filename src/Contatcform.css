@@ -1,0 +1,86 @@
+.ofertas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ofertas1 {
+    width: 25%;
+    color: #865551;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.ofertas1 h3, .ofertas1 p {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    width: 60%;
+    font-family: 'Philosopher', sans-serif;
+    color: #865551;
+    margin-left: 0%;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    font-family: 'Philosopher', sans-serif;
+    padding: 10px 50px;
+    background-color: #865551;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    width: auto;
+    margin-top: 13px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #79204b;
+}
+
+@media (max-width: 768px) {
+    .ofertas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ofertas1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    form label {
+        width: 100%;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+    }
+}

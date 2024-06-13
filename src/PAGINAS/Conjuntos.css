@@ -1,0 +1,28 @@
+.tituloConj{
+    flex: auto;
+    width: auto;
+    height: auto;
+    margin-top: 110px;
+    font-family: 'Philosopher', sans-serif;
+    
+
+}
+.titulo1Conj{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.titulo1Conj h1{
+    font-size: 80px;
+    color: #865551;
+    align-items: center;
+    
+}
+.titulo1Conj p{
+    font-size: 20px;
+    align-items: center;
+    color: #865551;
+    margin-top: 0px;
+}

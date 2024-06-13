@@ -1,0 +1,113 @@
+.container30 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Optional: Padding around the container */
+    box-sizing: border-box;
+    margin-top: -80px;
+    margin-bottom: -170px;
+    background-color: #FFFFFF;
+}
+
+.box.promo {
+    flex-direction: column;
+    text-align: center;
+    color: #865551;
+    font-size: 25px;
+}
+
+.box {
+    font-family: 'Philosopher', sans-serif;
+    flex: 1;
+    max-width: 35%;
+    height: 400px; /* Adjust as needed */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle, .circle-middle {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(235, 140, 140);
+    color: #865551;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -60px;
+    font-size: 22px;
+    animation: fall infinite linear;
+}
+
+.circle:nth-child(odd) {
+    left: 20%;
+}
+
+.circle:nth-child(even) {
+    left: 60%;
+}
+
+.circle-middle {
+    left: 40%;
+}
+
+.circle:nth-child(1) { animation-duration: 3s; }
+.circle:nth-child(2) { animation-duration: 4s; }
+.circle:nth-child(3) { animation-duration: 5s; }
+.circle:nth-child(4) { animation-duration: 6s; }
+.circle:nth-child(5) { animation-duration: 3.5s; }
+.circle:nth-child(6) { animation-duration: 4.5s; }
+.circle:nth-child(7) { animation-duration: 5.5s; }
+.circle:nth-child(8) { animation-duration: 6.5s; }
+
+@keyframes fall {
+    0% { top: -60px; }
+    100% { top: 100%; }
+}
+
+@media (max-width: 768px) {
+    .container30 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto; /* Adjust height to auto for better visibility */
+        margin-top: 0; /* Reset margin */
+        margin-bottom: 0; /* Reset margin */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .box {
+        max-width: 90%;
+        height: auto; /* Adjust to auto height for smaller screens */
+        margin-bottom: 20px; /* Add margin for spacing */
+    }
+
+    .box.promo {
+        order: -1;
+        margin-top: 50px; /* Ensure promo box is always in the middle */
+    }
+
+    .circle, .circle-middle {
+        display: none; /* Hide falling circles on smaller screens for better visibility */
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        max-width: 100%;
+    }
+
+    .box.promo {
+        font-size: 20px;
+        margin-top: 80px; /* Adjust font size for smaller screens */
+    }
+}

@@ -1,0 +1,29 @@
+.tituloAc{
+    flex: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 0px;
+    font-family: 'Philosopher', sans-serif;
+    
+
+}
+.titulo1Ac{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 140px;
+    
+}
+.titulo1Ac h1{
+    font-size: 80px;
+    color: #865551;
+    align-items: center;
+    
+}
+.titulo1Ac p{
+    font-size: 20px;
+    align-items: center;
+    color: #865551;
+    margin-top: 0px;
+}

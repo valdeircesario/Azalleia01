@@ -1,0 +1,75 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FEE6E6;
+  padding: 0%;
+  border-top: 4px solid #865551;
+  z-index: 1200;
+  width: 100%;
+}
+
+.footer-element {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .footer-element {
+    width: 50%; /* Two elements per row */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .footer-element {
+    width: 100%; /* One element per row */
+  }
+}
+
+
+.footer-element h2 {
+  font-family: 'Philosopher', sans-serif;
+  white-space:nowrap;
+  font-size: 19px;
+  color:#865551;
+  
+}
+
+.footer-element p {
+  font-family: 'Philosopher', sans-serif;
+  color: #865551;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.footer-element a {
+  font-family: 'Philosopher', sans-serif;
+  color: #ef1b7e(242, 64, 159);
+  text-decoration: underline;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+.footer-element img{
+    width: 30px;
+    height: 30px;
+}

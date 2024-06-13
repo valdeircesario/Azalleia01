@@ -1,0 +1,29 @@
+.tituloShot{
+    flex: auto;
+    width: auto;
+    height: auto;
+    margin-top: 120PX;
+    font-family: 'Philosopher', sans-serif;
+    
+    
+
+}
+.titulo1Shot{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.titulo1Shot h1{
+    font-size: 80px;
+    color:#865551;
+    align-items: center;
+    
+}
+.titulo1Shot p{
+    font-size: 20px;
+    align-items: center;
+    color: #865551;
+    margin-top: 0px;
+}

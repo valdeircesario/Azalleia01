@@ -1,0 +1,33 @@
+
+
+
+
+.catitulo{
+    margin-top: 120px;
+    flex: auto;
+    width: auto;
+    height: auto;
+    
+    
+
+}
+.catitulo1{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.catitulo1 h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 80px;
+    color: #865551;
+    align-items: center;
+    
+}
+.catitulo1 p{
+    font-size: 20px;
+    align-items: center;
+    color: #865551;
+    margin-top: 0px;
+}

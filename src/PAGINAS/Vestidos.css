@@ -1,0 +1,29 @@
+.tituloVest{
+    margin-top: 110px;
+    flex: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 0px;
+    font-family: 'Philosopher', sans-serif;
+    
+
+}
+.titulo1Vest{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.titulo1Vest h1{
+    font-size: 80px;
+    color:#865551;
+    align-items: center;
+    
+}
+.titulo1Vest p{
+    font-size: 20px;
+    align-items: center;
+    color: #865551;
+    margin-top: 0px;
+}

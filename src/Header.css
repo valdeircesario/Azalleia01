@@ -1,0 +1,111 @@
+/* Estilos para o header fixo */
+
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap' );
+
+
+
+
+.wrapper {
+  
+  align-items: center;
+  margin-top:-27px;
+  background-color: #FEE6E6;
+  width:200px;
+  height: 100px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 28PX; 
+  
+
+
+}
+
+.logo-link {
+  
+    text-decoration: none; /* Remove o sublinhado */
+    color: #865551;
+}
+  
+
+
+
+.container {
+  font-family: 'Philosopher', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px; /* Aumentado o padding lateral para 40px */
+  background-color:#FEE6E6;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px #865551(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Garantir que o padding não cause overflow */
+  border-bottom: 5px solid #865551;
+}
+.logo{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      border: 0px;
+      
+    }
+
+
+.Nav {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+   /* Empurrar a navegação para a direita */
+}
+
+.Nav a {
+  text-decoration: none;
+  color: #865551;
+  
+  font-size: 22px;
+}
+
+/* Estilos para o menu hambúrguer */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  margin-left: 20px; /* Ajuste de margem para o menu hambúrguer */
+}
+
+.hamburger div {
+  width: 40px;
+  height: 4px;
+  background-color: #865551;
+}
+
+@media (max-width: 768px) {
+  .Nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    opacity: 0.5px;
+    position: absolute;
+    top: 60px; /* Altura do header */
+    left: 0;
+    padding: 20px;
+    box-shadow: 0 4px 6px #865551(127, 47, 47, 0.1);
+  }
+
+  .Nav.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Ajuste para centralizar o conteúdo */
+.container {
+  padding: 10 30px; /* Aumenta o padding lateral para 40px */
+}

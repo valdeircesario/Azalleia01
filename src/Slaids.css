@@ -1,0 +1,155 @@
+.slaidfot-container {
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.slaidfot-slideshow {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    display: block;
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-text {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.slide-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-left: 300px;
+}
+
+.slide-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#865551;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.slide-button:hover {
+  background-color: #f754a3; 
+  color: white;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #865551(245, 69, 69, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #865551(244, 103, 103, 0.8);
+}
+
+.slaidfot-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon-item {
+    display: flex;
+    align-items: flex-start; 
+    text-align: left; 
+    width: auto; 
+}
+
+.icon-item img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+.icon-item h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #865551; 
+}
+
+.icon-item p {
+    font-size: 14px;
+    color: #3c3a39;
+    margin: 0; 
+    margin-top: 5px; 
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .icon-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .icon-item img {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+
+    .icon-item h3 {
+        font-size: 16px; 
+    }
+
+    .icon-item p {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-item img {
+        width: 30px; 
+    }
+
+    .icon-item h3 {
+        font-size: 14px; 
+    }
+
+    .icon-item p {
+        font-size: 10px; 
+    }
+}
+

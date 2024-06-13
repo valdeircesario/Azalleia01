@@ -1,0 +1,165 @@
+/* Estilos gerais */
+.containera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh; /* Garantir que o contêiner ocupe pelo menos a altura total da viewport */
+}
+
+.navprodutos {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Adicionar espaço abaixo do nav */
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navprodutos a {
+    color: rgb(235, 84, 157);
+    font-size: large;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navprodutos a:hover {
+    color: #ff6b6b;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centralizar os itens da grade */
+    gap: 20px;
+    width: 100%;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%; /* Ajustar a largura para responsividade */
+    max-width: 300px; /* Garantir que o cartão não fique muito largo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Adicionar padding */
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 125%; /* Aspect ratio */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.secondary-image {
+    opacity: 0;
+}
+
+.product-card:hover .primary-image {
+    opacity: 0;
+}
+
+.product-card:hover .secondary-image {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 10px; /* Adicionar margem para separar o ícone */
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Estilos adicionais para centralizar título e parágrafo */
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1em;
+    margin-top: 0;
+}

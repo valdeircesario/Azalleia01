@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap' );
+
+
+
+.titulop{
+    margin-top: 120px;
+    flex: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 0px;
+    
+    
+
+}
+.titulop1{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.titulop1 h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 80px;
+    color: #865551;
+    align-items: center;
+    
+}
+.titulop1 p{
+    font-size: 20px;
+    align-items: center;
+    color: #865551;
+    margin-top: 0px;
+}

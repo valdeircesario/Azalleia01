@@ -1,0 +1,97 @@
+/* FullPageContainer.css */
+.full-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.element {
+    
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 calc(20% - 40px); /* Responsivo: ocupa 25% menos a margem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: calc(20% - 40px); /* Limite para quatro elementos por linha */
+    opacity: 0; /* Inicialmente invisível */
+}
+
+.element:nth-child(odd) {
+    animation: slideInFromLeft 4s forwards;
+}
+
+.element:nth-child(even) {
+    animation: slideInFromRight 4s forwards;
+}
+
+.element h3 {
+    margin-bottom: 10px;
+    font-family: 'Philosopher', sans-serif;
+    color: #865551;
+}
+
+.element p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #865551;
+}
+
+.element a {
+    color:#f21680;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.element a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .element {
+        flex: 1 1 calc(33.33% - 40px); /* Responsivo: ocupa 33.33% menos a margem */
+        max-width: calc(33.33% - 40px); /* Limite para três elementos por linha */
+    }
+}
+
+@media (max-width: 900px) {
+    .element {
+        flex: 1 1 calc(50% - 40px); /* Responsivo: ocupa 50% menos a margem */
+        max-width: calc(50% - 40px); /* Limite para dois elementos por linha */
+    }
+}
+
+@media (max-width: 600px) {
+    .element {
+        flex: 1 1 100%; /* Responsivo: ocupa 100% da largura */
+        max-width: 100%; /* Limite para um elemento por linha */
+    }
+}
