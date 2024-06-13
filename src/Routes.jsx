@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./PAGINAS/PaginaInicial";
 import Catalago from "./PAGINAS/Catalago";
-import Contato from "./PAGINAS/Contatos";
 import Lancamentos from "./PAGINAS/Lancament";
 import Promoções from "./PAGINAS/Promoçoes";
 import Acessorios from "./PAGINAS/Acessorios";
