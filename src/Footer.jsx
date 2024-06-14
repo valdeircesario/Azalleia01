@@ -22,22 +22,22 @@ const Footer = () => {
         <ul className="social-icons">
   <li>
     <a href="URL_DO_FACEBOOK">
-      <img src='/public/Icom/facebook.png' />
+      <img src='/src/Imagens/licom/facebook.png' />
     </a>
   </li>
   <li>
     <a href="https://www.instagram.com/useazalleia/">
-      <img src="/public/Icom/instagram.png" />
+      <img src="/src/Imagens/licom/instagram.png" />
     </a>
   </li>
   <li>
     <a href="URL_DO_INSTAGRAM">
-      <img src="/public/Icom/tik-tok.png" />
+      <img src="/src/Imagens/licom/tik-tok.png" />
     </a>
   </li>
   <li>
     <a href="https://api.whatsapp.com/send?phone=61996744915">
-      <img src="/public/Icom/whatsapp.png" />
+      <img src="/src/Imagens/licom/whatsapp.png" />
     </a>
   </li>
 </ul>
@@ -48,7 +48,7 @@ const Footer = () => {
         <p>Avenida Alfredo Nascer , Corumbar Shoping Entrada B LJ 30 </p>
         <p>Luziânia, Estado GO</p>
         <Link to="https://maps.app.goo.gl/BA7nbYJE9n6Ys8Z49">
-      <img src="/public/Icom/mapa.png" />
+      <img src="/src/Imagens/licom/mapa.png" />
     </Link>
       </div>
       <div className="footer-element">
