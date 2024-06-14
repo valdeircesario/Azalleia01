@@ -32,12 +32,12 @@ const Footer = () => {
   </li>
   <li>
     <a href="URL_DO_INSTAGRAM">
-      <img src="/src/Imagens/licom/tik-tok.png" />
+      <img src="src/Imagens/licom/tik-tok.png" />
     </a>
   </li>
   <li>
     <a href="https://api.whatsapp.com/send?phone=61996744915">
-      <img src="/src/Imagens/licom/whatsapp.png" />
+      <img src="./src/Imagens/licom/whatsapp.png" />
     </a>
   </li>
 </ul>
