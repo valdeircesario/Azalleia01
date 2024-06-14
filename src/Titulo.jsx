@@ -7,7 +7,7 @@ function Titulo(){
         <div className="titulop">
             <div className="titulop1">
                 <h1>Azalleia</h1>
-                <p>Peças Perfeitas Para Empoderar Mulheres Incríveis</p>
+                <p>Peças Perfeitas Para Empoderar Mulheres Incríveis!</p>
             </div>
         </div>
     )
