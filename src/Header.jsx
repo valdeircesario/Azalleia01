@@ -16,7 +16,7 @@ function Header() {
     return (
         <header className='container'>
             <Link to="/">
-                <img className='logo' src="./imagen/icones/azaleia.png"alt="logo"/>
+                <img className='logo' src="/public/icom/azaleia.png"alt="logo"/>
             </Link>
             <div className='wrapper'>
             <Link to="/" className="logo-link">
