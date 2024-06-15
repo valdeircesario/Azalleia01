@@ -32,12 +32,12 @@ const Footer = () => {
   </li>
   <li>
     <a href="URL_DO_INSTAGRAM">
-      <img src="../public/Icom/tik-tok.png" />
+      <img src="/public/icom/tik-tok.png" />
     </a>
   </li>
   <li>
     <a href="https://api.whatsapp.com/send?phone=61996744915">
-      <img src="../src/Imagens/licom/whatsapp.png" />
+      <img src="/public/icom/whatsapp.png" />
     </a>
   </li>
 </ul>
@@ -48,7 +48,7 @@ const Footer = () => {
         <p>Avenida Alfredo Nascer , Corumbar Shopping Entrada B LJ 30 </p>
         <p>Luziânia, Estado GO</p>
         <Link to="https://maps.app.goo.gl/BA7nbYJE9n6Ys8Z49">
-      <img src="../public/Icom/mapa.png" />
+      <img src="/public/icom/mapa.png" />
     </Link>
       </div>
       <div className="footer-element">
