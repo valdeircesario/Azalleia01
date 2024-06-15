@@ -91,7 +91,7 @@ function SlaidFot() {
         <div className="icon-item" key={index}>
             <img src={icon.iconSrc} alt={icon.title} />
             <div className="icon-text1">
-                <h3>{icon.title}</h3>
+                <h4>{icon.title}</h4>
                 <p>{icon.description}</p>
             </div>
         </div>
