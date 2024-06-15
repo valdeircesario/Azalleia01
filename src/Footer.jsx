@@ -22,12 +22,12 @@ const Footer = () => {
         <ul className="social-icons">
   <li>
     <a href="URL_DO_FACEBOOK">
-      <img src='/src/Imagens/licom/facebook.png' />
+      <img src='/src/icon/facebook.png' />
     </a>
   </li>
   <li>
     <a href="https://www.instagram.com/useazalleia/">
-      <img src="/src/Imagens/licom/instagram.png" />
+      <img src="/src/icon/instagram.png" />
     </a>
   </li>
   <li>
