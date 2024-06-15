@@ -30,22 +30,22 @@ const slides = [
 const icons = [
     {
         iconSrc: '/public/Icom/entrega-rapida (1).png',
-        title: 'ENTREGA GRÁTIS',
+        title: 'Entrega Grátis',
         description: 'Em compras acima de R$399'
     },
     {
         iconSrc: '/public/Icom/pagamento.png',
-        title: '3X SEM JUROS',
+        title: '3X sem juros',
         description: 'Com cartão de crédito'
     },
     {
         iconSrc: '/public/Icom/entrega-rapida (2).png',
-        title: 'ENTREGA ÁGIL',
+        title: 'Entrega Agil',
         description: 'Para a Cidade e entorno'
     },
     {
         iconSrc: '/public/Icom/garantia.png',
-        title: 'COMPRA SEGURA',
+        title: 'Compra Segura',
         description: 'Segurança em todo o processo'
     }
 ];
@@ -91,7 +91,7 @@ function SlaidFot() {
         <div className="icon-item" key={index}>
             <img src={icon.iconSrc} alt={icon.title} />
             <div className="icon-text1">
-                <h4>{icon.title}</h4>
+                <h5>{icon.title}</h5>
                 <p>{icon.description}</p>
             </div>
         </div>
