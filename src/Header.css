@@ -34,7 +34,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px; 
+  padding: 0 30px;
+   
   background-color:#FEE6E6;
   position: fixed;
   width: 100%;
@@ -106,6 +107,4 @@
 }
 
 
-.container {
-  padding: 10 30px; 
-}
+
