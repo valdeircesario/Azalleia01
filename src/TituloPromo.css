@@ -17,6 +17,9 @@
     color: #865551;
     font-size: 25px;
 }
+.box.promo p{
+    margin-top: -10px;
+}
 
 .box {
     font-family: 'Philosopher', sans-serif;

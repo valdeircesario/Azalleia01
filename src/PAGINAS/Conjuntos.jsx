@@ -3,11 +3,13 @@
 import ConjuntosElements from "../ConjuntosElements"
 import Footer from "../Footer"
 import Header from "../Header"
+import ScrollToTop from "../ScrollToTop"
 import "./Conjuntos.css"
 
 function Conjuntos(){
     return(
         <>
+        <ScrollToTop/>
         <Header/>
         <div className="tituloConj">
             <div className="titulo1Conj">

@@ -7,7 +7,7 @@ function TituloAcess(){
         <div className="tituloAc">
             <div className="titulo1Ac">
                 <h1>Acessorios</h1>
-                <p>"Peças Perfeitas Para Empoderar Mulheres Incríveis"</p>
+                <p>Na Azalleia você também encontra brincos, colares e puseiras, tudo pensando em deixar você mais elegante.</p>
             </div>
         </div>
     )

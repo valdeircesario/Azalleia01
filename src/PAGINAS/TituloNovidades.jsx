@@ -7,7 +7,7 @@ function TituloNovidades(){
         <div className="titulonov">
             <div className="titulonov1">
                 <h1>Novas Coleções</h1>
-                <p>"Peças Perfeitas Para Empoderar Mulheres Incríveis"</p>
+                <p>Confira Nossa Nova Coleção, e Apróveite para révonar seu Guarda Roupa.</p>
             </div>
         </div>
     )

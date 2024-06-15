@@ -49,7 +49,9 @@
 
 .footer-element a {
   font-family: 'Philosopher', sans-serif;
-  color: #ef1b7e(242, 64, 159);
+  color: rgb(238, 69, 167);
+  white-space:nowrap;
+  
   text-decoration: underline;
 }
 
@@ -64,6 +66,7 @@
 
 .social-icons li {
   margin-right: 10px;
+  
 }
 
 .social-icons li:last-child {

@@ -8,11 +8,13 @@ import Header from '../Header';
 import ContactForm from '../Contatcform';
 import './Contatos.css'
 import Footer from '../Footer';
+import ScrollToTop from '../ScrollToTop';
 
 
 function Contatos() {
     return (
         <>
+        <ScrollToTop/>
             <Header />
             
             <hr />

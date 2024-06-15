@@ -9,11 +9,13 @@ import Header from "../Header"
 
 import "./Vestidos.css"
 import VestElement from '../VestElement';
+import ScrollToTop from '../ScrollToTop';
 
 
 function Vestidos(){
     return(
         <>
+        <ScrollToTop/>
         <Header/>
         <div className="tituloVest">
             <div className="titulo1Vest">

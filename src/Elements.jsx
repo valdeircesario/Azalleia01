@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Elements.css'; 
 import { Link } from 'react-router-dom';
 
@@ -27,10 +27,39 @@ function Elements() {
         }
     ];
 
+    const elementsRef = useRef([]);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        elementsRef.current.forEach(element => {
+            if (element) {
+                observer.observe(element);
+            }
+        });
+
+        return () => {
+            if (elementsRef.current) {
+                elementsRef.current.forEach(element => {
+                    if (element) {
+                        observer.unobserve(element);
+                    }
+                });
+            }
+        };
+    }, []);
+
     return (
         <div className="full-page-container">
             {items.map((item, index) => (
-                <div key={index} className="element">
+                <div key={index} className="element" ref={el => elementsRef.current[index] = el}>
                     <h3>{item.title}</h3>
                     <p>{item.text}</p>
                     <Link to={item.link}>Saiba mais</Link>

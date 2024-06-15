@@ -14,10 +14,12 @@ import QuemSou from "./QuemSou";
 
 
 
+
 function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
+        
         <Route path="/" element={<Home/>}/>
         <Route path="/src/PAGINAS/Catalago.jsx" element={<Catalago/>}/>
         <Route path="/src/PAGINAS/Contatos.jsx" element={<Contatos/>}/>

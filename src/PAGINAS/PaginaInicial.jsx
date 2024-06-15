@@ -9,6 +9,7 @@ import Navegacao from '../Navegacao'
 import Info from '../Info'
 import ContactForm from '../Contatcform'
 import Footer from '../Footer'
+import ScrollToTop from '../ScrollToTop';
 
 
 
@@ -16,6 +17,7 @@ import Footer from '../Footer'
 function PaginaInicial(){
     return(
         <>
+        <ScrollToTop/>
       <Header/>
       <Titulo/>
       <SlaidFot/>

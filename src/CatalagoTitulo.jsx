@@ -7,7 +7,7 @@ function TituloCatalago(){
         <div className="catitulo">
             <div className="catitulo1">
                 <h1>Confira Nosso Catalago</h1>
-                <p>Peças Perfeitas Para Empoderar Mulheres Incríveis</p>
+                <p>Aqui Você Encontra Diversos Modelos, Para Diversos Gostos.</p>
             </div>
         </div>
     )

@@ -2,6 +2,7 @@
 
 import Footer from "../Footer"
 import Header from "../Header"
+import ScrollToTop from "../ScrollToTop"
 import ShortElements from "../ShortElements"
 
 import "./Shorts.css"
@@ -9,6 +10,7 @@ import "./Shorts.css"
 function Shorts(){
     return(
         <>
+        <ScrollToTop/>
         <Header/>
         <div className="tituloShot">
             <div className="titulo1Shot">

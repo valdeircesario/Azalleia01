@@ -2,10 +2,12 @@
 import Footer from './Footer'
 import Header from './Header'
 import './QuemSou.css'
+import ScrollToTop from './ScrollToTop'
 
 function QuemSou(){
     return(
         <>
+        <ScrollToTop/>
         <Header/>
         <div className="quemsou">
             <h1>Bem-vinda à Azalleia</h1>

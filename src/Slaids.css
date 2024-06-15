@@ -105,13 +105,13 @@
 }
 
 .icon-item h3 {
-    font-size: 18px;
+    font-size: 14px;
     margin: 0;
     color: #865551; 
 }
 
 .icon-item p {
-    font-size: 14px;
+    font-size: 12px;
     color: #3c3a39;
     margin: 0; 
     margin-top: 5px; 
@@ -131,7 +131,7 @@
     }
 
     .icon-item h3 {
-        font-size: 16px; 
+        font-size: 14px; 
     }
 
     .icon-item p {
@@ -145,11 +145,11 @@
     }
 
     .icon-item h3 {
-        font-size: 14px; 
+        font-size: 10px; 
     }
 
     .icon-item p {
-        font-size: 10px; 
+        font-size: 8px; 
     }
 }
 

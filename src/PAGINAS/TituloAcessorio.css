@@ -2,7 +2,7 @@
     flex: auto;
     width: auto;
     height: auto;
-    margin-bottom: 0px;
+    
     font-family: 'Philosopher', sans-serif;
     
 
@@ -12,11 +12,11 @@
     align-items: center;
     margin: auto;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 90px;
     
 }
 .titulo1Ac h1{
-    font-size: 80px;
+    font-size: 60px;
     color: #865551;
     align-items: center;
     
@@ -25,5 +25,5 @@
     font-size: 20px;
     align-items: center;
     color: #865551;
-    margin-top: 0px;
+    margin-top: -40px;
 }

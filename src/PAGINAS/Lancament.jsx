@@ -3,6 +3,7 @@ import Footer from "../Footer"
 import Header from "../Header"
 import TituloNovidades from "./TituloNovidades"
 import Novidades from "./Novas"
+import ScrollToTop from "../ScrollToTop"
 
 
 
@@ -11,6 +12,7 @@ import Novidades from "./Novas"
 function Lancamentos(){
     return(
         <>
+        <ScrollToTop/>
         
         <Header/>
         <TituloNovidades/>

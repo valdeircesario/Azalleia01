@@ -3,10 +3,11 @@
 
 
 .catitulo{
-    margin-top: 120px;
+    margin-top: 90px;
     flex: auto;
     width: auto;
     height: auto;
+    
     
     
 
@@ -20,7 +21,7 @@
 }
 .catitulo1 h1{
     font-family: 'Philosopher', sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     color: #865551;
     align-items: center;
     
@@ -29,5 +30,6 @@
     font-size: 20px;
     align-items: center;
     color: #865551;
-    margin-top: 0px;
+    margin-top: -40px;
+    
 }

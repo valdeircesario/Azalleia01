@@ -1,5 +1,5 @@
 .tituloVest{
-    margin-top: 110px;
+    margin-top: 90px;
     flex: auto;
     width: auto;
     height: auto;
@@ -16,7 +16,7 @@
     
 }
 .titulo1Vest h1{
-    font-size: 80px;
+    font-size: 60px;
     color:#865551;
     align-items: center;
     
@@ -25,5 +25,5 @@
     font-size: 20px;
     align-items: center;
     color: #865551;
-    margin-top: 0px;
+    margin-top: -30px;
 }

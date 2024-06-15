@@ -7,6 +7,7 @@ import TituloPromo from '../TituloPromo';
 import Footer from '../Footer';
 import Novidades from './Novas';
 import Promocoes from '../PromocoesElement';
+import ScrollToTop from '../ScrollToTop';
 
 
 
@@ -15,6 +16,7 @@ import Promocoes from '../PromocoesElement';
 function Promoções(){
     return(
         <>
+        <ScrollToTop/>
         <Header/>
         <TituloPromo/>
         <Promocoes/>
