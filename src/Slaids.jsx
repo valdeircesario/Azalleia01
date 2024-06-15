@@ -29,22 +29,22 @@ const slides = [
 
 const icons = [
     {
-        iconSrc: '/public/Icom/entrega-rapida (1).png',
+        iconSrc: '/src/imagen/icones/entrega-rapida (1).png',
         title: 'Entrega Grátis',
         description: 'Em compras acima de R$399'
     },
     {
-        iconSrc: '/public/Icom/pagamento.png',
+        iconSrc: '/src/imagen/icones/pagamento.png',
         title: '3X sem juros',
         description: 'Com cartão de crédito'
     },
     {
-        iconSrc: '/public/Icom/entrega-rapida (2).png',
+        iconSrc: '/src/imagen/icones/entrega-rapida (2).png',
         title: 'Entrega Agil',
         description: 'Para a Cidade e entorno'
     },
     {
-        iconSrc: '/public/Icom/garantia.png',
+        iconSrc: '/src/imagen/icones/garantia.png',
         title: 'Compra Segura',
         description: 'Segurança em todo o processo'
     }
