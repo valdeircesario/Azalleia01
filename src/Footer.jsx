@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       <div className="footer-element">
         <h2>Contatos</h2>
-        <p>Email: contato@exemplo.com</p>
+        <p>Email: useazalleia@exemplo.com</p>
         <p>Telefone: (00) 12345-6789</p>
         <Link to='/src/PAGINAS/Contatos.jsx'>Entre em contato conosco</Link>
       </div>
