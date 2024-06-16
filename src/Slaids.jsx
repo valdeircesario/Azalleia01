@@ -5,23 +5,23 @@ import { Link } from 'react-router-dom';
 
 const slides = [
     {
-        imgSrc: '/public/ImagemCapa/vestido brilhossss.png',
+        imgSrc: '/imagemCapa/vestido brilhossss.png',
         text: 'Confiras,Nossas Promoções!,Não Fique Fora Dessa! ',
         link: '/src/PAGINAS/Promoçoes.jsx'
     },
     {
-        imgSrc: '/public/ImagemCapa/vestido brilhossss.png',
+        imgSrc: '/imagemCapa/vestido brilhossss.png',
         text: 'Nova Coleção,Venha Conferir,Chegou com tudo!',
         link: '/src/PAGINAS/Lancament.jsx'
     },
     {
-        imgSrc: '/public/ImagemCapa/vestido verde longosss.png',
+        imgSrc: '/imagemCapa/vestido verde longosss.png',
         text: 'Nossa linha de Acessorios,Não perca!',
         link: '/src/PAGINAS/Acessorios.jsx'
     },
     
     {
-        imgSrc: '/public/ImagemCapa/vestido brilhossss.png',
+        imgSrc: '/imagemCapa/vestido brilhossss.png',
         text: 'Nosso Catalalo,Confira as novidades',
         link: '/src/PAGINAS/Catalago.jsx'
     }
@@ -29,22 +29,22 @@ const slides = [
 
 const icons = [
     {
-        iconSrc: '/src/imagen/icones/entrega-rapida (1).png',
+        iconSrc: '/icones1/entrega-rapida.png',
         title: 'Entrega Grátis',
         description: 'Em compras acima de R$399'
     },
     {
-        iconSrc: '/src/imagen/icones/pagamento.png',
+        iconSrc: '/icones1/pagamento.png',
         title: '3X sem juros',
         description: 'Com cartão de crédito'
     },
     {
-        iconSrc: '/src/imagen/icones/entrega-rapida (2).png',
+        iconSrc: '/icones1/entrega-rapida (2).png',
         title: 'Entrega Agil',
         description: 'Para a Cidade e entorno'
     },
     {
-        iconSrc: '/src/imagen/icones/garantia.png',
+        iconSrc: '/icones1/pagamento.png',
         title: 'Compra Segura',
         description: 'Segurança em todo o processo'
     }

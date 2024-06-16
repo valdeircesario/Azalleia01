@@ -7,35 +7,35 @@ const items = [
     {
         id: 1,
         title: 'Conjuntos',
-        imgSrc: '/public/ImagensLinks/conjuntolinhao1copia.png', 
+        imgSrc: '/imagensLinks/conjuntolinhao1copia.png', 
         link: '/src/PAGINAS/Conjuntos.jsx', 
         description: 'Conjuntos'
     },
     {
         id: 2,
         title: 'Macaquinhos',
-        imgSrc: '/public/ImagensLinks/macaquinhoppcopia.png',
+        imgSrc: '/imagensLinks/macaquinhoppcopia.png',
         link: '/src/PAGINAS/Macaquinhos.jsx',
         description: 'Macaquinhos'
     },
     {
         id: 3,
         title: 'Acessorios',
-        imgSrc: '/public/ImagensLinks/joias.png',
+        imgSrc: '/imagensLinks/joias.png',
         link: '/src/PAGINAS/Acessorios.jsx',
         description: 'Acessorios'
     },
     {
         id: 4,
         title: 'Vestido',
-        imgSrc: '/public/ImagensLinks/vestidocasualcopia.png',
+        imgSrc: '/imagensLinks/vestidocasualcopia.png',
         link: '/src/PAGINAS/Vestidos.jsx',
         description: 'Vestido'
     },
     {
         id: 5,
         title: 'Short',
-        imgSrc: '/public/ImagensLinks/Short saia2copia.png',
+        imgSrc: '/imagensLinks/Short saia2copia.png',
         link: '/src/PAGINAS/Shorts.jsx',
         description: 'Shorts'
     },
