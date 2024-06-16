@@ -16,7 +16,7 @@ function Header() {
     return (
         <header className='container'>
             <Link to="/">
-                <img className='logo' src="src/azaleia.jpg"alt="logo"/>
+                <img className='logo' src="/icom/azaleia.png"alt="logo"/>
             </Link>
             <div className='wrapper'>
             <Link to="/" className="logo-link">
@@ -27,7 +27,7 @@ function Header() {
                 <Link to="/">Pagina Inicial</Link>
                 <Link to="/src/PAGINAS/Catalago.jsx">Catalago</Link>
                 <Link to="/src/PAGINAS/Lancament.jsx">Lançamentos</Link>
-                <Link to="/src/PAGINAS/Contatos.jsx">Contato</Link>
+                <Link to="/src/PAGINAS/Contatos.jsx">Contatos</Link>
                 
             </nav>
             <div className="hamburger" onClick={toggleMenu}>
