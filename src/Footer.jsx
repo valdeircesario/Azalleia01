@@ -21,7 +21,7 @@ const Footer = () => {
         <h2>Redes Sociais</h2>
         <ul className="social-icons">
   <li>
-    <a href="URL_DO_FACEBOOK">
+    <a href="https://www.instagram.com/useazalleia/">
       <img src='/icom/facebook.png'alt="Ícone do Facebook" /></a>
   </li>
   <li>
@@ -30,7 +30,7 @@ const Footer = () => {
     </a>
   </li>
   <li>
-    <a href="URL_DO_INSTAGRAM">
+    <a href="https://www.instagram.com/useazalleia/">
       <img src="/icom/tik-tok.png"alt="Ícone do tick tok" />
     </a>
   </li>
@@ -52,8 +52,8 @@ const Footer = () => {
       </div>
       <div className="footer-element">
         <h2>Contatos</h2>
-        <p>Email: useazalleia@exemplo.com</p>
-        <p>Telefone: (00) 12345-6789</p>
+        <p>Useazalleia@gmail.com</p>
+        <p>Telefone: (61) 996744-915</p>
         <Link to='/src/PAGINAS/Contatos.jsx'>Entre em contato conosco</Link>
       </div>
     </footer>

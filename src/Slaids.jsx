@@ -44,7 +44,7 @@ const icons = [
         description: 'Para a Cidade e entorno'
     },
     {
-        iconSrc: '/icones1/pagamento.png',
+        iconSrc: '/icones1/garantia.png',
         title: 'Compra Segura',
         description: 'Segurança em todo o processo'
     }
