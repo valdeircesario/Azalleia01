@@ -14,7 +14,7 @@
     
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 1.125rem;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-sizing: border-box;
@@ -25,7 +25,7 @@
     width: 20%;
     max-width: 150px;
     padding: 6px;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #fff;
     background-color: #865551;
     border: none;

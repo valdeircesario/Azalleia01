@@ -22,7 +22,7 @@
 }
 
 .inf1 h2 {
-    font-size: 35px;
+    font-size: 2.187rem;
     color: #865551;
     width: 100%;
     font-family: 'Philosopher', sans-serif; 
@@ -30,7 +30,7 @@
 }
 
 .inf1 p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #865551;
     width: 70%; 
     margin: 10px 0;

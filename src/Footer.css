@@ -34,7 +34,7 @@
 .footer-element h2 {
   font-family: 'Philosopher', sans-serif;
   white-space:nowrap;
-  font-size: 19px;
+  font-size: 1.125rem;
   color:#865551;
   
 }
@@ -42,7 +42,7 @@
 .footer-element p {
   font-family: 'Philosopher', sans-serif;
   color: #865551;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-bottom: 5px;
   text-align: center;
 }

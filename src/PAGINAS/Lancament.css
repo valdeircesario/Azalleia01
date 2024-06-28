@@ -136,7 +136,7 @@
     margin-top: -22px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     transition: 0.3s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -166,11 +166,11 @@
 }
 
 .box h1 {
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 .box p {
-    font-size: 1em;
+    font-size: 1rem;
     margin-top: 0;
 }

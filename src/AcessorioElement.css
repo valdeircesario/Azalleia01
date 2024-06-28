@@ -128,7 +128,7 @@
     padding: 16px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     transition: 0.3s ease;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.5);
@@ -156,13 +156,13 @@
 
 .description h2 {
     white-space: nowrap;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin: 0;
     color: #333;
 }
 
 .description .size {
-    font-size: 1em;
+    font-size: 1rem;
     margin: 5px 0 0 0;
     color: rgba(109, 22, 38, 0.6);
 }
@@ -177,11 +177,11 @@
 }
 
 .price-info .price {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #333;
 }
 
 .price-info .installments {
-    font-size: 1em;
+    font-size: 1rem;
     color: #555;
 }

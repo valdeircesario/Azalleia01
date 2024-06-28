@@ -11,20 +11,20 @@
 }
 
 .quemsou h1 {
-    font-size: 4.5em;
+    font-size: 4.5rem;
     margin-bottom: 10px;
     color: #865551;
 }
 
 .sou1 h6 {
-    font-size: 2.2em;
+    font-size: 2.2rem;
     margin-bottom: 10px;
     color: #865551;
 }
 
 .sou1 p {
     margin-bottom: 15px;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 
@@ -37,15 +37,15 @@
     }
 
     .quemsou h1 {
-        font-size: 2.9em;
+        font-size: 2.9rem;
     }
 
     .sou1 h6 {
-        font-size: 1.9em;
+        font-size: 1.9rem;
     }
 
     .sou1 p {
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -58,15 +58,15 @@
     }
 
     .quemsou h1 {
-        font-size: 2.9em;
+        font-size: 2.9rem;
     }
 
     .sou1 h6 {
-        font-size: 1.9em;
+        font-size: 1.9rem;
     }
 
     .sou1 p {
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -79,19 +79,19 @@
     }
 
     .quemsou h1 {
-        font-size: 2.5em;
+        font-size: 2.5rem;
     }
 
     .sou1 h4 {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     .sou1 h6 {
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
 
     .sou1 p {
-        font-size: 0.85em;
+        font-size: 0.85rem;
     }
 }
 
@@ -104,14 +104,14 @@
     }
 
     .quemsou h1 {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     .sou1 h6 {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 
     .sou1 p {
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
 }
