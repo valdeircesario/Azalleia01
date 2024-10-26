@@ -13,31 +13,31 @@ Veja abaixo algumas capturas de tela do site Azalleia:
 
 <div style="display: flex; align-items: center;justify-content: center;">
     <div style="margin-bottom: 20px;">
-        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/488611ad-900a-4ab8-8c41-811c26fa7a33" alt="Página Inicial" width="200" height="200" >
+        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/488611ad-900a-4ab8-8c41-811c26fa7a33" alt="Página Inicial" width="700" height="900" >
         <p><em>Figura 1: facil navegação.</em></p>
     </div>
     <div style="margin-bottom: 20px;">
-        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/a9a2650e-2a4e-49d2-b712-b505cb6a4a72" alt="tela inicial" width="200"height="200" >
+        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/a9a2650e-2a4e-49d2-b712-b505cb6a4a72" alt="tela inicial" width="700"height="900" >
         <p><em>Figura 2:Página inicial do site. .</em></p>
     </div>
     <div style="margin-bottom: 20px;">
-        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/bdc23f77-581c-4703-8b51-ad47f32b6dab" alt="Seção de Projetos" width="200" height="200" >
+        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/bdc23f77-581c-4703-8b51-ad47f32b6dab" alt="Seção de Projetos" width="700" height="900" >
         <p><em>Figura 3: Responsividade.</em></p>
     </div>
     <div style="margin-bottom: 20px;">
-        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/26ce00b7-25b9-41fb-9438-63f0c8c34305" alt="Seção de Contatos" width="200" height="200" >
+        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/26ce00b7-25b9-41fb-9438-63f0c8c34305" alt="Seção de Contatos" width="700" height="900" >
         <p><em>Figura 4: Contatos.</em></p>
     </div>
   <div style="margin-bottom: 20px;">
-        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/f51026e0-b3b2-440c-8bd0-0ecebb8b771d" alt="Seção de Contatos" width="200" height="200" >
+        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/f51026e0-b3b2-440c-8bd0-0ecebb8b771d" alt="Seção de Contatos" width="700" height="900" >
         <p><em>Figura 5: pagina com design moderno.</em></p>
     </div>
   <div style="margin-bottom: 20px;">
-        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/17f6c156-fe04-45df-9957-967b8732f22e" alt="Seção de Contatos" width="200" height="200" >
+        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/17f6c156-fe04-45df-9957-967b8732f22e" alt="Seção de Contatos" width="700" height="900" >
         <p><em>Figura 6: Contatos .</em></p>
     </div>
   <div style="margin-bottom: 20px;">
-        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/71886ac1-2e06-481b-8b7b-1e0d6711e6d2" alt="Seção de Contatos" width="200" height="200" >
+        <img src="https://github.com/valdeircesario/Azalleia_Moda_Feminina/assets/135670289/71886ac1-2e06-481b-8b7b-1e0d6711e6d2" alt="Seção de Contatos" width="700" height="900" >
         <p><em>Figura 7:Pagina completa.</em></p>
     </div>
 </div>
